@@ -1,41 +1,43 @@
 <!DOCTYPE html>    <!--versão 5 html-->
-<html lang="pt-br"> 
+<html lang="pt-br"> <!--idioma de origem do site (português do Brasil)-->
     <head>    <!--cabeça invisível do site-->
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <style>
-            body{
-                background-color: #ca4f22;
-                text-align: center;
-            }
-            h1{
-                font-size: 40px;
-            }
-        </style>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8"> <!--configura a página para abrir em vários idiomas-->
+        <link rel="stylesheet" href="style.css"> <!--conectando style com index-->
     </head>
+
     <body>    <!--corpo visível do site-->
-        <img id="imagem-brasil" src="brasil.png" alt="bandeira do Brasil">
-                
-        <h1>Bandeira do Brasil</h1>
-        <p style="color:#FFFFFF;"><i>Meu</i><small>Primeiro</small><u>Parágrafo</u></p>
-        <br>
-        <div id="conteudo-listas">
-            <h2 class="subtitulo">Lista de Cores da bandeira</h2>
-            <ul> <!--Unordered list (lista não ordenada)-->
-                <li>Branco</li>
-                <li>Azul</li>
-                <li>Amarelo</li>
-                <li>Verde</li>
-            </ul>
-            <h2 class="subtitulo">Lista de palavras da bandeira</h2>
-            <ol> <!--ordered list (lista não ordenada)-->
-                <li>Ordem</li>
-                <li>E</li>
-                <li>Progresso</li>
-            
-            </ol>
-        </div>        
+        <header> <!--cabeçalho visível do site-->
+            <img id="imagem-brasil" src="brasil.png" alt="bandeira do Brasil">  
+            <h1>Bandeira do Brasil</h1>
+        </header>
+
+        <main> <!--conteúdo principal da página-->
+            <p>A bandeira do Brasil foi criada em 1822 para representar
+                o símbolo nacional</p>
+            <p>Cada cor da bandeira do Brasil tem um significado:</p>
+            <p>Verde representa vegetação, amarelo representa as riquezas, 
+               azul representa o céu e os rios e branco representa o desejo de paz </p>
+            <br>
+            <div id="conteudo-listas">
+               <h2 class="subtitulo">Lista de Cores da bandeira</h2>
+               <ul> <!--Unordered list (lista não ordenada)-->
+                   <li>Branco</li>
+                   <li>Azul</li>
+                   <li>Amarelo</li>
+                   <li>Verde</li>
+               </ul>
+               <h2 class="subtitulo">Lista de palavras da bandeira</h2>
+               <ol> <!--ordered list (lista não ordenada)-->
+                   <li>Ordem</li>
+                   <li>E</li>
+                   <li>Progresso</li>
+               
+               </ol>
+           </div> 
+        </main>
+        <footer> <!--rodapé da página-->
+            <p>Todos os direitos reservados</p>
+        </footer>       
     </body>
 
 </html>
