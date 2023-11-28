@@ -9,6 +9,11 @@
     border: solid blue 5px;
 }
 
+#link{
+    color:red;
+    text-decoration: none;
+}
+
 #link:hover{
     color: gold;
     text-decoration: none;
